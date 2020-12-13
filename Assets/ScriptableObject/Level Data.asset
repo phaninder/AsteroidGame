@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a2a3588c3cde3948b25502b5bd313a8, type: 3}
+  m_Name: Level Data
+  m_EditorClassIdentifier: 
+  levelDetails:
+  - score: 0
+    noOfNewObstacles: 5
+    maxSpeed: 1
+  - score: 100
+    noOfNewObstacles: 5
+    maxSpeed: 2
+  - score: 300
+    noOfNewObstacles: 6
+    maxSpeed: 2
+  - score: 500
+    noOfNewObstacles: 7
+    maxSpeed: 4
+  - score: 650
+    noOfNewObstacles: 5
+    maxSpeed: 4.5
+  - score: 800
+    noOfNewObstacles: 6
+    maxSpeed: 5
+  - score: 900
+    noOfNewObstacles: 7
+    maxSpeed: 5
+  - score: 1000
+    noOfNewObstacles: 8
+    maxSpeed: 6
+  - score: 1100
+    noOfNewObstacles: 9
+    maxSpeed: 7
+  - score: 1200
+    noOfNewObstacles: 9
+    maxSpeed: 7
+  - score: 1300
+    noOfNewObstacles: 10
+    maxSpeed: 7.5
+  - score: 1400
+    noOfNewObstacles: 11
+    maxSpeed: 8
+  - score: 1500
+    noOfNewObstacles: 10
+    maxSpeed: 10
+  - score: 1600
+    noOfNewObstacles: 15
+    maxSpeed: 8
+  - score: 1700
+    noOfNewObstacles: 15
+    maxSpeed: 8
+  - score: 1800
+    noOfNewObstacles: 15
+    maxSpeed: 8
+  - score: 1900
+    noOfNewObstacles: 15
+    maxSpeed: 8
+  - score: 2000
+    noOfNewObstacles: 15
+    maxSpeed: 8
+  - score: 2100
+    noOfNewObstacles: 15
+    maxSpeed: 8
+  - score: 2200
+    noOfNewObstacles: 15
+    maxSpeed: 8
