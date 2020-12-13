@@ -81,12 +81,6 @@ public class PlayerShipController : MonoBehaviour
         {
             CreateBullets();
         }
-
-        if(Input.GetKeyDown(KeyCode.F))
-        {
-            shootPowerup = !shootPowerup;
-        }
-
     }
 
     void CreateBullets()
@@ -142,10 +136,9 @@ public class PlayerShipController : MonoBehaviour
             shootPowerup = true;
             StartCoroutine(DisablePowerShootPowerup(shootPowerTime));
         }
-        else if (collision.gameObject.tag == "ShootPowerUp")
+        else if (collision.gameObject.tag == "ShieldPowerup")
         {
-            shieldActive = true;
-            StartCoroutine(DisableShieldShootPowerup(shieldTime));
+            EnableShield(shieldTime);
         }
     }
 

@@ -35,6 +35,7 @@ public class GameManager : MonoBehaviour
 
     public System.Action GameStartAction;
     public System.Action GameOverAction;
+    public bool gameOver = false;
 
     private void Start()
     {
@@ -44,6 +45,7 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
+        gameOver = false;
         currentLevel = 1;
         playerCurrentScore = 0;
         maxLives = 3;
@@ -58,7 +60,6 @@ public class GameManager : MonoBehaviour
 
     private void CreateNewObstacles()
     {
-        Debug.Log("Create obstacles for level:" + currentLevel);
         int obs = levelData.levelDetails[currentLevel - 1].noOfNewObstacles;
         float maxObsSpeed = levelData.levelDetails[currentLevel - 1].maxSpeed;
         obstacleManager.CreateObstacles(obs,maxObsSpeed);
@@ -74,6 +75,7 @@ public class GameManager : MonoBehaviour
         if (playerLives<=0)
         {
             //Game over
+            gameOver = true;
             obstacleManager.HideAllObstacles();
             ShowHighScore();
             //enable play button

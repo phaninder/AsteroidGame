@@ -17,22 +17,22 @@ MonoBehaviour:
     noOfNewObstacles: 5
     maxSpeed: 1
   - score: 100
-    noOfNewObstacles: 5
+    noOfNewObstacles: 6
     maxSpeed: 2
   - score: 300
-    noOfNewObstacles: 6
+    noOfNewObstacles: 7
     maxSpeed: 2
   - score: 500
-    noOfNewObstacles: 7
+    noOfNewObstacles: 8
     maxSpeed: 4
   - score: 650
-    noOfNewObstacles: 5
+    noOfNewObstacles: 8
     maxSpeed: 4.5
   - score: 800
-    noOfNewObstacles: 6
+    noOfNewObstacles: 8
     maxSpeed: 5
   - score: 900
-    noOfNewObstacles: 7
+    noOfNewObstacles: 8
     maxSpeed: 5
   - score: 1000
     noOfNewObstacles: 8
